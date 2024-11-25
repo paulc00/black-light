@@ -1,6 +1,5 @@
-def main():
-    print("Hello from black-light!")
+import platform
 
+print(f"Python version: {platform.python_version()}\n")
 
-if __name__ == "__main__":
-    main()
+print("Hello World")
