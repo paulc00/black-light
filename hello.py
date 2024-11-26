@@ -1,5 +1,6 @@
 import platform
+import getpass
 
 print(f"Python version: {platform.python_version()}\n")
 
-print("Hello Paul! This is just for you.")
+print(f"Hello {getpass.getuser()}! This is just for you.")
