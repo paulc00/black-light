@@ -7,4 +7,6 @@ print("System detail:")
 for uname,uvalue in platform.uname()._asdict().items():
   print(f"  {uname}={uvalue}")
 
+print()
+
 print(f"Hello {getpass.getuser()}! This is just for you.")
